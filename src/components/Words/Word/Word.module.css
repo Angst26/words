@@ -1,0 +1,14 @@
+.card{
+    border:  solid black;
+    border-radius: 10px;
+}
+
+.text{
+color: blue;
+    font-size: x-large;
+}
+
+.translation{
+    font-size: x-large;
+    color: #9e19d2;
+}
