@@ -2,9 +2,11 @@ import {useDispatch} from "react-redux";
 import {useMemo} from "react";
 import {bindActionCreators} from "@reduxjs/toolkit";
 import {doomReducer} from "../WordsSlice/words.slice.ts";
+import {setSearchItem} from "../SearchFieldSlice/search.slice.ts"
 
 const actions = {
-    doomAction: doomReducer
+    doomAction: doomReducer,
+    setSearchItem: setSearchItem,
 }
 
 const useActions = () => {
